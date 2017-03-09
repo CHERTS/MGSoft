@@ -15,7 +15,7 @@ Delphi:		RAD Studio XE8 (possible build of components for the Delphi 7 to XE8)<b
 
 ####Components:
 
-TMGSPI - VCL component for speech synthesis through the Microsoft SAPI;<br>
+TMGSAPI - VCL component for speech synthesis through the Microsoft SAPI;<br>
 TMGGoogleTTS - VCL component for speech synthesis through the Google Text-to-Speech;<br>
 TMGYandexTTS - VCL component for speech synthesis through Yandex Text-to-Speech;<br>
 TMGNuanceTTS - VCL component for speech synthesis through Nuance Text-to-Speech;<br>

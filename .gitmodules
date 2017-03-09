@@ -1,0 +1,4 @@
+[submodule "Bin/tessdata"]
+	path = Bin/tessdata
+	url = https://github.com/tesseract-ocr/tessdata.git
+	branch = 074c37215b01ab8cc47a0e06ff7356383883d775
