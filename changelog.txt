@@ -1,5 +1,6 @@
 ﻿10.03.2017:
-+ В компонент TMGTessOCR добавлены все языки распознавания (полный список тут -> https://github.com/tesseract-ocr/tesseract/wiki/Data-Files#data-files-for-version-304305)
++ В компонент TMGTessOCR добавлены все языки распознавания (полный список тут -> https://github.com/tesseract-ocr/tesseract/wiki/Data-Files#data-files-for-version-304305);
++ В компонент TMGTessOCR добавлена процедура Parameter, позволяющая установить произвольные настройки движка Tesseract OCR;
 
 09.03.2017:
 * Обновлена библиотека Tesseract OCR до версии 3.05 (tessocr.dll, tessocr-x64.dll);

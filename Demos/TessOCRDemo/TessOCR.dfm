@@ -32,11 +32,18 @@ object MainForm: TMainForm
     BevelOuter = bvNone
     BorderWidth = 4
     TabOrder = 0
+    object LLanguage: TLabel
+      Left = 8
+      Top = 40
+      Width = 84
+      Height = 13
+      Caption = 'Select Language:'
+    end
     object Panel: TPanel
       Left = 4
-      Top = 37
+      Top = 61
       Width = 469
-      Height = 633
+      Height = 609
       Align = alBottom
       Anchors = [akLeft, akTop, akRight, akBottom]
       BevelOuter = bvLowered
@@ -46,7 +53,7 @@ object MainForm: TMainForm
         Left = 1
         Top = 1
         Width = 467
-        Height = 631
+        Height = 607
         Cursor = crArrow
         Align = alClient
         Center = True
@@ -55,6 +62,7 @@ object MainForm: TMainForm
         OnMouseDown = ImageMouseDown
         OnMouseMove = ImageMouseMove
         OnMouseUp = ImageMouseUp
+        ExplicitHeight = 631
       end
       object Shape: TShape
         Left = 16
@@ -78,12 +86,20 @@ object MainForm: TMainForm
     end
     object CBLanguage: TComboBox
       Left = 116
-      Top = 9
+      Top = 34
       Width = 186
       Height = 21
       Style = csDropDownList
       TabOrder = 2
       OnChange = CBLanguageChange
+    end
+    object CBOnlyNumbers: TCheckBox
+      Left = 328
+      Top = 36
+      Width = 97
+      Height = 17
+      Caption = 'Only numbers'
+      TabOrder = 3
     end
   end
   object PanelRight: TPanel
@@ -165,18 +181,18 @@ object MainForm: TMainForm
       ' Image File (*.jpeg)|*.jpeg|Bitmaps (*.bmp)|*.bmp|Tiff (*.tif)|*' +
       '.tif|Tiff (*.tiff)|*.tiff|Gif (*.gif)|*.gif|Png (*.png)|*.png'
     Left = 64
-    Top = 48
+    Top = 80
   end
   object XPManifest: TXPManifest
     Left = 144
-    Top = 48
+    Top = 80
   end
   object MGTessOCR: TMGTessOCR
     Language = OCR_Russian
     LanguageCode = 'rus'
     PageNumber = 0
     OnProgress = OcrProgress
-    Left = 216
-    Top = 48
+    Left = 208
+    Top = 80
   end
 end

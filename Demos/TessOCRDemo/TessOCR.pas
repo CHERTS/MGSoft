@@ -46,6 +46,8 @@ type
     LWordCount: TLabel;
     MGTessOCR: TMGTessOCR;
     Shape: TShape;
+    LLanguage: TLabel;
+    CBOnlyNumbers: TCheckBox;
     procedure ButtonSelectPictureClick(Sender: TObject);
     procedure ButtonRecognizeClick(Sender: TObject);
     procedure ButtonCancelClick(Sender: TObject);
@@ -250,6 +252,15 @@ var
   ShapeRect: TRect;
 begin
   try
+    if MGTessOCR.Active then
+    begin
+      if CBOnlyNumbers.Checked then
+        // Recognize only numbers
+        MGTessOCR.Parameter['tessedit_char_whitelist'] := '0123456789'
+      else
+        MGTessOCR.Parameter['tessedit_char_whitelist'] := '';
+    end;
+
     ProgressBar.Position := 0;
     CancelRequest := False;
     ButtonSelectPicture.Enabled := False;
