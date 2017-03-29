@@ -10,8 +10,8 @@ WWW:		http://www.programs74.ru<br>
 
 ####Системные требования:
 
-ОС:		Win2000/XP/2003/Vista/7/8<br>
-Среда Delphi:	RAD Studio XE8 (возможна сборка компонентов под всю линейку Delphi от версии 7 до XE8)<br>
+ОС:		Win2000/XP/2003/Vista/7/8/10<br>
+Среда Delphi:	RAD Studio XE8, 10.1 Berlin (возможна сборка компонентов под всю линейку Delphi от версии 7 до RAD Studio 10.2 Tokyo)<br>
 
 
 ####Состав компонентов:
