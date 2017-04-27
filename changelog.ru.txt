@@ -1,0 +1,34 @@
+﻿v1.0.2 от 27.04.2017:
++ Добавлена поддержка RAD Studio 10.2 Tokyo;
+
+v1.0.1 от 30.03.2017:
++ В компонент TMGOSInfo добавлено определение Windows Server 2016;
+
+v1.0.0 от 29.03.2017:
++ Добавлена поддержка RAD Studio 10.1 Berlin;
+* В компонент TMGOSInfo исправлено определение Windows 10;
+
+v0.0.9 от 10.03.2017:
++ В компонент TMGTessOCR добавлены все языки распознавания (полный список тут -> https://github.com/tesseract-ocr/tesseract/wiki/Data-Files#data-files-for-version-304305);
++ В компонент TMGTessOCR добавлена процедура Parameter, позволяющая установить произвольные настройки движка Tesseract OCR;
+
+v0.0.8 от 09.03.2017:
+* Обновлена библиотека Tesseract OCR до версии 3.05 (tessocr.dll, tessocr-x64.dll);
+* Из всех компонентов убрана отладочная информация;
+* Обновлен пример SMTPDemo и TessOCRDemo;
+
+v0.0.7 от 31.03.2016:
+* Восстановлена работа компонента TMGGoogleTTS;
+
+v0.0.6 от 13.12.2015:
++ Доработан компонент TMGTessOCR:
+  + Добавлены свойства:
+    Picture: TPicture
+    PictureHeight: Integer
+    PictureLeft: Integer
+    PictureTop: Integer
+    PictureWidth: Integer
+    PixelFormat: TMGTessOCRPixelFormat
+
+v0.0.1 от 05.05.2014:
+- Первый закрытый релиз;
