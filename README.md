@@ -1,4 +1,4 @@
-###MGSoft Delphi components
+## MGSoft Delphi components
 
 [По-русски / In Russian](README.ru.md)
 
@@ -8,12 +8,12 @@ ICQ:		161867489<br>
 WWW:		http://www.programs74.ru<br>
 License:	GNU GPLv3<br>
 
-####System requirements:
+### System requirements:
 
 OS:		Win2000/XP/2003/Vista/7/8/10<br>
 Delphi:		RAD Studio XE8, 10.1 Berlin (possible build of components for the Delphi 7 to RAD Studio 10.2 Tokyo)<br>
 
-####Components:
+### Components:
 
 TMGSAPI - VCL component for speech synthesis through the Microsoft SAPI;<br>
 TMGGoogleTTS - VCL component for speech synthesis through the Google Text-to-Speech;<br>
@@ -33,10 +33,12 @@ TMGTrayIcon - VCL component for hidding programs to systray;<br>
 TMGTextReaderA, TMGTextReaderW - nonVLC component for reading large files file by reflection from the disk into memory;<br>
 TMGThreadStringList - nonVLC component-line StringList;<br>
 
-####Components source code:
+### Components source code:
 
 Source code components TMGSAPI, TMGGoogleTTS, TMGYandexTTS, TMGISpeechTTS, TMGNuanceTTS, TMGTessOCR, TMGOSInfo, TMGSMTP applies only after purchase.<br>
 The cost of the source code of one component of $20 USD. When you purchase the source code of 3 or more components of a discount of 10%.<br>
-The source code of the other components (TMGButtonGroup, TMGHotKeyManager, TMGWindowHook, TMGFormStorage, TMGFormPlacement, TMGThread, TMGTrayIcon, TMGTextReaderA, TMGTextReaderW, TMGThreadStringList) distributed on request for free.<br>
+
+#### Buy now full source code for all components at $144<br>
+<a href="https://gum.co/YXsJd" title="Buy now full source code for all components">![Buy now full source code for all components](https://dl.programs74.ru/images/buy-now-button-small-en.png)</a>
 
 (c) 2014-2017 by Mikhail Grigorev
