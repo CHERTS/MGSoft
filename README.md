@@ -38,7 +38,10 @@ TMGThreadStringList - nonVLC component-line StringList;<br>
 Source code components TMGSAPI, TMGGoogleTTS, TMGYandexTTS, TMGISpeechTTS, TMGNuanceTTS, TMGTessOCR, TMGOSInfo, TMGSMTP applies only after purchase.<br>
 The cost of the source code of one component of $20 USD. When you purchase the source code of 3 or more components of a discount of 10%.<br>
 
-#### Buy now full source code for all components at $144<br>
-<a href="https://gum.co/YXsJd" title="Buy now full source code for all components">![Buy now full source code for all components](https://dl.programs74.ru/images/buy-now-button-small-en.png)</a>
+#### Buy now Standard version (only binaries) for all components at $72<br>
+<a href="https://gum.co/gLdna" title="Buy now Standard version">![Buy now Standard version](https://dl.programs74.ru/images/buy-now-button-small-en.png)</a>
+
+#### Buy now Professional version (full source code) for all components at $144<br>
+<a href="https://gum.co/YXsJd" title="Buy now Professional version">![Buy now Professional version](https://dl.programs74.ru/images/buy-now-button-small-en.png)</a>
 
 (c) 2014-2017 by Mikhail Grigorev

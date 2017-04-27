@@ -77,7 +77,10 @@ TMGTessOCR	- Распознавания текста используя библ
 Исходный код компонентов TMGSAPI, TMGGoogleTTS, TMGYandexTTS, TMGISpeechTTS, TMGNuanceTTS, TMGTessOCR, TMGOSInfo, TMGSMTP распространяется только после его покупки.<br>
 Стоимость исходного кода каждого компонента 1000 рублей или $20. При покупке исходного кода 3 и более компонентов предоставляется скидка 10%.<br>
 
-#### Купить исходный код всех компонентов со скидкой за $144 USD<br>
-<a href="https://gum.co/YXsJd" title="Купить исходный код всех компонентов со скидкой">![Купить исходный код всех компонентов со скидкой](https://dl.programs74.ru/images/buy-now-button-small-en.png)</a>
+#### Купить версию Standard (только бинарники) всех компонентов со скидкой за $72 USD<br>
+<a href="https://gum.co/gLdna" title="Купить версию Standard">![Купить версию Standard](https://dl.programs74.ru/images/buy-now-button-small-en.png)</a>
+
+#### Купить версию Professional (с исходниками) всех компонентов со скидкой за $144 USD<br>
+<a href="https://gum.co/YXsJd" title="Купить версию Professional">![Купить версию Professional](https://dl.programs74.ru/images/buy-now-button-small-en.png)</a>
 
 (c) 2014-2017 Михаил Григорьев
