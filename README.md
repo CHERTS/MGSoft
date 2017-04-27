@@ -1,4 +1,4 @@
-## MGSoft Delphi components
+## MGSoft Delphi Components
 
 [По-русски / In Russian](README.ru.md)
 
