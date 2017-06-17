@@ -1,4 +1,7 @@
-﻿v1.0.2 at 27.04.2017:
+﻿v1.0.3 at 17.06.2017:
++ In tessocr.dll updated TesseractOCR up to 3.05.01 and Leptonica up to 1.74.4;
+
+v1.0.2 at 27.04.2017:
 + Added support RAD Studio 10.2 Tokyo;
 
 v1.0.1 от 30.03.2017:
