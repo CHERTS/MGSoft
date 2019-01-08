@@ -10,4 +10,4 @@ The cost of the source code of one component of $20 USD. When you purchase the s
 #### Buy now full source code for all components at $144<br>
 <a href="https://gum.co/YXsJd" title="Buy now full source code for all components">![Buy now full source code for all components](https://dl.programs74.ru/images/buy-now-button-small-en.png)</a>
 
-(c) 2014-2017 by Mikhail Grigorev
+(c) 2014-2019 by Mikhail Grigorev
