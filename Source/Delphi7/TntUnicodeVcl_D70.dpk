@@ -1,0 +1,56 @@
+package TntUnicodeVcl_D70;
+
+{$R *.res}
+{$R '..\TNTUnicode\Design\TntComCtrls.dcr'}
+{$R '..\TNTUnicode\Design\TntDBCtrls.dcr'}
+{$R '..\TNTUnicode\Design\TntStdCtrls.dcr'}
+{$R '..\TNTUnicode\Design\TntActnList.dcr'}
+{$R '..\TNTUnicode\Design\TntMenus.dcr'}
+{$R '..\TNTUnicode\Design\TntExtCtrls.dcr'}
+{$R '..\TNTUnicode\Design\TntForms.dcr'}
+{$R '..\TNTUnicode\Design\TntGrids.dcr'}
+{$R '..\TNTUnicode\Design\TntButtons.dcr'}
+{$R '..\TNTUnicode\Design\TntDialogs.dcr'}
+{$R '..\TNTUnicode\Design\TntExtDlgs.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS ON}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Tnt Unicode Controls'}
+{$DESIGNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  dcldb,
+  designide,
+  TntUnicodeVcl_R70;
+
+contains
+  TntForms_Design in '..\TNTUnicode\Design\TntForms_Design.pas',
+  TntComCtrls_Design in '..\TNTUnicode\Design\TntComCtrls_Design.pas',
+  TntDBGrids_Design in '..\TNTUnicode\Design\TntDBGrids_Design.pas',
+  TntDesignEditors_Design in '..\TNTUnicode\Design\TntDesignEditors_Design.pas',
+  TntWideStringProperty_Design in '..\TNTUnicode\Design\TntWideStringProperty_Design.pas',
+  TntMenus_Design in '..\TNTUnicode\Design\TntMenus_Design.pas',
+  TntStrEdit_Design in '..\TNTUnicode\Design\TntStrEdit_Design.pas',
+  TntUnicodeVcl_Register in '..\TNTUnicode\Design\TntUnicodeVcl_Register.pas',
+  TntActions_Design in '..\TNTUnicode\Design\TntActions_Design.pas';
+
+end.

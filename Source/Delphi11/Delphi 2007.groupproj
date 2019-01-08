@@ -1,0 +1,40 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{9458fc6a-c220-4246-b43b-9b6e59c64050}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="MGSoft110">
+    <MSBuild Projects="MGSoft110.dproj" Targets="" />
+  </Target>
+  <Target Name="MGSoft110:Clean">
+    <MSBuild Projects="MGSoft110.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="MGSoft110:Make">
+    <MSBuild Projects="MGSoft110.dproj" Targets="Make" />
+  </Target>
+  <Target Name="dclMGSoft110">
+    <MSBuild Projects="dclMGSoft110.dproj" Targets="" />
+  </Target>
+  <Target Name="dclMGSoft110:Clean">
+    <MSBuild Projects="dclMGSoft110.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="dclMGSoft110:Make">
+    <MSBuild Projects="dclMGSoft110.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="MGSoft110;dclMGSoft110" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="MGSoft110:Clean;dclMGSoft110:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="MGSoft110:Make;dclMGSoft110:Make" />
+  </Target>
+</Project>

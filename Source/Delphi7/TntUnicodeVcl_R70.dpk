@@ -1,0 +1,72 @@
+package TntUnicodeVcl_R70;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS ON}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Tnt Unicode Controls - Runtime'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  vcl,
+  vclx,
+  vcldb,
+  dsnap,
+  vclactnband;
+
+contains
+  ActiveIMM_TLB in '..\TNTUnicode\Source\ActiveIMM_TLB.pas',
+  TntSystem in '..\TNTUnicode\Source\TntSystem.pas',
+  TntAxCtrls in '..\TNTUnicode\Source\TntAxCtrls.pas',
+  TntClipbrd in '..\TNTUnicode\Source\TntClipbrd.pas',
+  TntWindows in '..\TNTUnicode\Source\TntWindows.pas',
+  TntSysUtils in '..\TNTUnicode\Source\TntSysUtils.pas',
+  TntClasses in '..\TNTUnicode\Source\TntClasses.pas',
+  TntDialogs in '..\TNTUnicode\Source\TntDialogs.pas',
+  TntFileCtrl in '..\TNTUnicode\Source\TntFileCtrl.pas',
+  TntExtDlgs in '..\TNTUnicode\Source\TntExtDlgs.pas',
+  TntRegistry in '..\TNTUnicode\Source\TntRegistry.pas',
+  TntGraphics in '..\TNTUnicode\Source\TntGraphics.pas',
+  TntControls in '..\TNTUnicode\Source\TntControls.pas',
+  TntActnList in '..\TNTUnicode\Source\TntActnList.pas',
+  TntMenus in '..\TNTUnicode\Source\TntMenus.pas',
+  TntForms in '..\TNTUnicode\Source\TntForms.pas',
+  TntStdCtrls in '..\TNTUnicode\Source\TntStdCtrls.pas',
+  TntExtCtrls in '..\TNTUnicode\Source\TntExtCtrls.pas',
+  TntButtons in '..\TNTUnicode\Source\TntButtons.pas',
+  TntCheckLst in '..\TNTUnicode\Source\TntCheckLst.pas',
+  TntGrids in '..\TNTUnicode\Source\TntGrids.pas',
+  TntComCtrls in '..\TNTUnicode\Source\TntComCtrls.pas',
+  TntDB in '..\TNTUnicode\Source\TntDB.pas',
+  TntDBCtrls in '..\TNTUnicode\Source\TntDBCtrls.pas',
+  TntDBGrids in '..\TNTUnicode\Source\TntDBGrids.pas',
+  TntStdActns in '..\TNTUnicode\Source\TntStdActns.pas',
+  TntExtActns in '..\TNTUnicode\Source\TntExtActns.pas',
+  TntListActns in '..\TNTUnicode\Source\TntListActns.pas',
+  TntDBActns in '..\TNTUnicode\Source\TntDBActns.pas',
+  TntBandActn in '..\TNTUnicode\Source\TntBandActn.pas',
+  TntDBLogDlg in '..\TNTUnicode\Source\TntDBLogDlg.pas',
+  TntFormatStrUtils in '..\TNTUnicode\Source\TntFormatStrUtils.pas',
+  TntWideStrings in '..\TNTUnicode\Source\TntWideStrings.pas',
+  TntWideStrUtils in '..\TNTUnicode\Source\TntWideStrUtils.pas';
+
+end.

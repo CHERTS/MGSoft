@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{1A017281-0B81-4AF7-96E2-BD0460FE9D20}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MGSoft260.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dclMGSoft260.dproj">
+            <Dependencies>MGSoft260.dproj</Dependencies>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MGSoft260">
+        <MSBuild Projects="MGSoft260.dproj"/>
+    </Target>
+    <Target Name="MGSoft260:Clean">
+        <MSBuild Projects="MGSoft260.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MGSoft260:Make">
+        <MSBuild Projects="MGSoft260.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="dclMGSoft260" DependsOnTargets="MGSoft260">
+        <MSBuild Projects="dclMGSoft260.dproj"/>
+    </Target>
+    <Target Name="dclMGSoft260:Clean" DependsOnTargets="MGSoft260:Clean">
+        <MSBuild Projects="dclMGSoft260.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="dclMGSoft260:Make" DependsOnTargets="MGSoft260:Make">
+        <MSBuild Projects="dclMGSoft260.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MGSoft260;dclMGSoft260"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MGSoft260:Clean;dclMGSoft260:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MGSoft260:Make;dclMGSoft260:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

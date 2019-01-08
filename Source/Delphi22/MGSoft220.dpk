@@ -1,0 +1,95 @@
+{ ############################################################################ }
+{ #                                                                          # }
+{ #  MGSoft Delphi Components v1.0.0                                         # }
+{ #                                                                          # }
+{ #  License: GPLv3                                                          # }
+{ #                                                                          # }
+{ #  Author: Mikhail Grigorev (icq: 161867489, email: sleuthhound@gmail.com) # }
+{ #                                                                          # }
+{ ############################################################################ }
+
+package MGSoft220;
+
+{$I ..\MGSoft.inc}
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS OFF}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE RELEASE}
+{$ENDIF IMPLICITBUILDING}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl;
+
+contains
+{$IFDEF EnableMGSAPI}
+  MGSAPI in '..\MGSAPI.pas',
+{$ENDIF EnableMGSAPI}
+{$IFDEF EnableMGGoogleTTS}
+  MGGoogleTTS in '..\MGGoogleTTS.pas',
+{$ENDIF EnableMGGoogleTTS}
+{$IFDEF EnableMGYandexTTS}
+  MGYandexTTS in '..\MGYandexTTS.pas',
+{$ENDIF EnableMGYandexTTS}
+{$IFDEF EnableMGISpeechTTS}
+  MGISpeechTTS in '..\MGISpeechTTS.pas',
+{$ENDIF EnableMGISpeechTTS}
+  MGHotKeyManager in '..\MGHotKeyManager.pas',
+  MGUtils in '..\MGUtils.pas',
+  MGHTTPSendEx in '..\MGHTTPSendEx.pas',
+{$IFDEF EnableMGSAPI}
+  SpeechLib_TLB in '..\SpeechLib_TLB.pas',
+{$ENDIF EnableMGSAPI}
+{$IFDEF EnableMGSMTP}
+  MGSMTP in '..\MGSMTP.pas',
+{$ENDIF EnableMGSMTP}
+  MGButtonGroup in '..\MGButtonGroup.pas',
+  MGHook in '..\MGHook.pas',
+  MGPlacement in '..\MGPlacement.pas',
+  MGPlacementProps in '..\MGPlacementProps.pas',
+  MGVCLUtils in '..\MGVCLUtils.pas',
+{$IFDEF EnableMGTessOCR}
+  MGTessOCR in '..\MGTessOCR.pas',
+{$ENDIF EnableMGTessOCR}
+  MGTypes in '..\MGTypes.pas',
+{$IFDEF EnableMGRHVoice}
+  MGRHVoice in '..\MGRHVoice.pas',
+{$ENDIF EnableMGRHVoice}
+  MGTextReader in '..\MGTextReader.pas',
+  MGThread in '..\MGThread.pas',
+  MGTrayIcon in '..\MGTrayIcon.pas',
+  MGSimpleTimer in '..\MGSimpleTimer.pas',
+{$IFDEF EnableMGOSInfo}
+  MGOSInfo in '..\MGOSInfo.pas',
+{$ENDIF EnableMGOSInfo}
+{$IFDEF EnableMGGoogleASR}
+  MGGoogleASR in '..\MGGoogleASR.pas',
+{$ENDIF EnableMGGoogleASR}
+{$IFDEF EnableMGNuanceTTS}
+  MGNuanceTTS in '..\MGNuanceTTS.pas',
+{$ENDIF EnableMGNuanceTTS}
+  MGThreadStringList in '..\MGThreadStringList.pas';
+
+end.

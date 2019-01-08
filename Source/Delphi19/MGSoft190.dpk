@@ -1,0 +1,73 @@
+{ ############################################################################ }
+{ #                                                                          # }
+{ #  MGSoft Delphi Components v1.0.0                                         # }
+{ #                                                                          # }
+{ #  License: GPLv3                                                          # }
+{ #                                                                          # }
+{ #  Author: Mikhail Grigorev (icq: 161867489, email: sleuthhound@gmail.com) # }
+{ #                                                                          # }
+{ ############################################################################ }
+
+package MGSoft190;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE RELEASE}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'MGSoft Runtime Library'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl;
+
+contains
+  MGSAPI in '..\MGSAPI.pas',
+  MGGoogleTTS in '..\MGGoogleTTS.pas',
+  MGYandexTTS in '..\MGYandexTTS.pas',
+  MGISpeechTTS in '..\MGISpeechTTS.pas',
+  MGHotKeyManager in '..\MGHotKeyManager.pas',
+  MGUtils in '..\MGUtils.pas',
+  MGHTTPSendEx in '..\MGHTTPSendEx.pas',
+  SpeechLib_TLB in '..\SpeechLib_TLB.pas',
+  MGSMTP in '..\MGSMTP.pas',
+  MGButtonGroup in '..\MGButtonGroup.pas',
+  MGHook in '..\MGHook.pas',
+  MGPlacement in '..\MGPlacement.pas',
+  MGPlacementProps in '..\MGPlacementProps.pas',
+  MGVCLUtils in '..\MGVCLUtils.pas',
+  MGTessOCR in '..\MGTessOCR.pas',
+  MGTypes in '..\MGTypes.pas',
+  MGRHVoice in '..\MGRHVoice.pas',
+  MGTextReader in '..\MGTextReader.pas',
+  MGThread in '..\MGThread.pas',
+  MGTrayIcon in '..\MGTrayIcon.pas',
+  MGSimpleTimer in '..\MGSimpleTimer.pas',
+  MGOSInfo in '..\MGOSInfo.pas',
+  MGGoogleASR in '..\MGGoogleASR.pas',
+  MGThreadStringList in '..\MGThreadStringList.pas',
+  MGNuanceTTS in '..\MGNuanceTTS.pas';
+
+end.

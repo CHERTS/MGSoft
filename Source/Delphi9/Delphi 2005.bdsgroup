@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{7D358D1A-39B4-4FD9-BB2D-3752A6448AE8}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    
+    
+    <Projects>
+      <Projects Name="MGSoft90.bpl">MGSoft90.bdsproj</Projects>
+      <Projects Name="dclMGSoft90.bpl">dclMGSoft90.bdsproj</Projects>
+      <Projects Name="Targets">MGSoft90.bpl dclMGSoft90.bpl</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{FE29D3B2-C4B2-4635-A468-EB918CF2C96E}">
+        <Dependency GUID="{2508A68D-0171-413E-828A-5D490D2835CF}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+</BorlandProject>
