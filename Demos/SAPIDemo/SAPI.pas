@@ -77,6 +77,7 @@ begin
   begin
     CBVoices.Items.Add('Not voices');
     CBVoices.ItemIndex := 0;
+    ButtonStart.Enabled := False;
   end
   else
   begin

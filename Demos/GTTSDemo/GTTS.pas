@@ -47,6 +47,7 @@ implementation
 procedure TMainForm.CBVoicesChange(Sender: TObject);
 begin
   GoogleTL := MGGoogleTTS1.GTTSLanguageNameToCode((Sender as TComboBox).Items[(Sender as TComboBox).ItemIndex]);
+  MemoLog.Lines.Add(FormatDateTime('dd.mm.yy hh:mm:ss', Now) + ': LangCode: ' + GoogleTL);
   MGGoogleTTS1.TTSLangCode := GoogleTL;
   EditText.Text := MGGoogleTTS1.GTTSGetTestPhrase();
 end;

@@ -16,7 +16,8 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, ComCtrls, StdCtrls, ImgList, MGButtonGroup, ButtonGroup;
+  Dialogs, ComCtrls, StdCtrls, ImgList, MGButtonGroup, System.ImageList,
+  Vcl.ButtonGroup;
 
 type
   TMainForm = class(TForm)

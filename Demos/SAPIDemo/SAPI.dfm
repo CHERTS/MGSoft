@@ -152,7 +152,7 @@ object MainForm: TMainForm
     OnChange = TBPitchChange
   end
   object MGSAPI1: TMGSAPI
-    TTSLang = 0
+    TTSLang = -1
     OnEvent = MGSAPI1Event
     OnPosition = MGSAPI1Position
     Left = 320

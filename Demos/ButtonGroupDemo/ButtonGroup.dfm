@@ -48,6 +48,10 @@ object MainForm: TMainForm
     TabOrder = 2
     object TabSheet1: TTabSheet
       Caption = 'TabSheet1'
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object Label1: TLabel
         Left = 24
         Top = 16
@@ -59,6 +63,10 @@ object MainForm: TMainForm
     object TabSheet2: TTabSheet
       Caption = 'TabSheet2'
       ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object Label2: TLabel
         Left = 24
         Top = 16
@@ -70,6 +78,10 @@ object MainForm: TMainForm
     object TabSheet3: TTabSheet
       Caption = 'TabSheet3'
       ImageIndex = 2
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object Label3: TLabel
         Left = 24
         Top = 16
@@ -81,6 +93,10 @@ object MainForm: TMainForm
     object TabSheet4: TTabSheet
       Caption = 'TabSheet4'
       ImageIndex = 3
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object Label4: TLabel
         Left = 24
         Top = 16
@@ -92,6 +108,10 @@ object MainForm: TMainForm
     object TabSheet5: TTabSheet
       Caption = 'TabSheet5'
       ImageIndex = 4
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object Label5: TLabel
         Left = 24
         Top = 16
@@ -154,7 +174,7 @@ object MainForm: TMainForm
     Left = 184
     Top = 152
     Bitmap = {
-      494C010105000900080010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010105000900040010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000002000000001002000000000000020
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000E1E1E100CDCD

@@ -1,4 +1,7 @@
-﻿v1.0.4 at 22.03.2018:
+﻿v1.0.5 at 08.01.2019:
++ Added support RAD Studio 10.3 Rio;
+
+v1.0.4 at 22.03.2018:
 + Added new language in TMGGoogleTTS;
 
 v1.0.3 at 17.06.2017:
