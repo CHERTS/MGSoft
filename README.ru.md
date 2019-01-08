@@ -11,7 +11,7 @@ WWW:		http://www.programs74.ru<br>
 ### Системные требования:
 
 ОС:		Win2000/XP/2003/Vista/7/8/10<br>
-Среда Delphi:	RAD Studio XE8, 10.1 Berlin, 10.2 Tokyo (возможна сборка компонентов под всю линейку Delphi от версии 7 до RAD Studio 10.2 Tokyo)<br>
+Среда Delphi:	RAD Studio XE8, 10.1 Berlin, 10.2 Tokyo, 10.3 Rio (возможна сборка компонентов под всю линейку Delphi от версии 7 до RAD Studio 10.3 Rio)<br>
 
 
 ### Состав компонентов:
@@ -83,4 +83,4 @@ TMGTessOCR	- Распознавания текста используя библ
 #### Купить версию Professional (с исходниками) всех компонентов со скидкой за $144 USD<br>
 <a href="https://gum.co/YXsJd" title="Купить версию Professional">![Купить версию Professional](https://dl.programs74.ru/images/buy-now-button-small-en.png)</a>
 
-(c) 2014-2017 Михаил Григорьев
+(c) 2014-2019 Михаил Григорьев

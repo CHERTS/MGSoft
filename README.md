@@ -11,7 +11,7 @@ License:	GNU GPLv3<br>
 ### System requirements:
 
 OS:		Win2000/XP/2003/Vista/7/8/10<br>
-Delphi:		RAD Studio XE8, 10.1 Berlin, 10.2 Tokyo (possible build of components for the Delphi 7 to RAD Studio 10.2 Tokyo)<br>
+Delphi:		RAD Studio XE8, 10.1 Berlin, 10.2 Tokyo, 10.3 Rio (possible build of components for the Delphi 7 to RAD Studio 10.3 Rio)<br>
 
 ### Components:
 
@@ -44,4 +44,4 @@ The cost of the source code of one component of $20 USD. When you purchase the s
 #### Buy now Professional version (full source code) for all components at $144<br>
 <a href="https://gum.co/YXsJd" title="Buy now Professional version">![Buy now Professional version](https://dl.programs74.ru/images/buy-now-button-small-en.png)</a>
 
-(c) 2014-2017 by Mikhail Grigorev
+(c) 2014-2019 by Mikhail Grigorev
