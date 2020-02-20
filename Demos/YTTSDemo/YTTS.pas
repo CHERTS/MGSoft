@@ -12,6 +12,8 @@
 
 unit YTTS;
 
+{$R MGLangStrYandex.res}
+
 interface
 
 uses

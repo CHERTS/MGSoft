@@ -13,6 +13,9 @@ del /S %dirname%\descript.ion
 del /S %dirname%\*.ddp
 del /S %dirname%\*.map
 del /S %dirname%\*.drc
+del /S %dirname%\*.stat
 rd /S /Q %dirname%\__history
 rd /S /Q %dirname%\Win32\Release
 rd /S /Q %dirname%\Win32
+rd /S /Q %dirname%\Win64\Release
+rd /S /Q %dirname%\Win64

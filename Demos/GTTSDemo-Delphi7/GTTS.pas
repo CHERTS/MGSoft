@@ -12,6 +12,8 @@
 
 unit GTTS;
 
+{$R MGLangStrGoogle.res}
+
 interface
 
 uses

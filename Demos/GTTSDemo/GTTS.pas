@@ -12,6 +12,8 @@
 
 unit GTTS;
 
+{$R MGLangStrGoogle.res}
+
 interface
 
 uses
@@ -31,6 +33,7 @@ type
     procedure CBVoicesChange(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure MGGoogleTTS1Event(Sender: TObject; pInfo: TGTTSResultInfo);
+    procedure FormShow(Sender: TObject);
   private
     { Private declarations }
   public
@@ -62,6 +65,15 @@ begin
     CreateDir(WorkPath);
   // Читаем настройки
   LoadINI(WorkPath);
+end;
+
+procedure TMainForm.FormDestroy(Sender: TObject);
+begin
+  SaveINI(WorkPath);
+end;
+
+procedure TMainForm.FormShow(Sender: TObject);
+begin
   // Голоса
   if not MGGoogleTTS1.GetVoices(CBVoices.Items, True) then
   begin
@@ -73,11 +85,6 @@ begin
     CBVoices.ItemIndex := MGGoogleTTS1.GTTSLanguageNum(CBVoices.Items, GoogleTL);;
     CBVoicesChange(CBVoices);
   end;
-end;
-
-procedure TMainForm.FormDestroy(Sender: TObject);
-begin
-  SaveINI(WorkPath);
 end;
 
 procedure TMainForm.MGGoogleTTS1Event(Sender: TObject; pInfo: TGTTSResultInfo);
