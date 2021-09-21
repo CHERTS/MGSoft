@@ -4,7 +4,7 @@
 
 Автор:		Михаил Григорьев<br>
 E-Mail: 	sleuthhound@gmail.com<br>
-Telegram:	@cherts<br>
+Telegram:	<a href="https://t.me/cherts">@cherts</a><br>
 WWW:		http://www.programs74.ru<br>
 Лицензия:	GNU GPLv3<br>
 
