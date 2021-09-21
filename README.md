@@ -4,7 +4,7 @@
 
 Author:		Mikhail Grigorev<br>
 E-Mail:		sleuthhound@gmail.com<br>
-ICQ:		161867489<br>
+Telegram:	@cherts<br>
 WWW:		http://www.programs74.ru<br>
 License:	GNU GPLv3<br>
 
